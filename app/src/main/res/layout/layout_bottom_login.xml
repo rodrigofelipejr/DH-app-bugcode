@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="@+id/guideline_bottom"
+    app:layout_constraintHeight_percent=".68">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInput_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                app:layout_constraintBottom_toTopOf="@id/textInput_password"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEdit_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="User Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textPersonName"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInput_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                app:layout_constraintBottom_toTopOf="@id/button_login"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textInput_name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEdit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                android:background="@drawable/bg_buttom"
+                android:text="@string/text_buttom_login"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@id/text_cadastro"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textInput_password" />
+
+            <TextView
+                android:id="@+id/text_cadastro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Não tem conta? Cadastre-se"
+                android:textColor="@color/aqua_700"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/image_instagram"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/button_login" />
+
+            <ImageButton
+                android:id="@+id/image_facebook"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_facebook"
+                android:contentDescription="@string/facebook"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="@id/image_instagram"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/image_instagram"
+                app:layout_constraintTop_toTopOf="@id/image_instagram" />
+
+            <ImageButton
+                android:id="@+id/image_instagram"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/ic_instagram"
+                android:contentDescription="@string/instagram"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/image_facebook"
+                app:layout_constraintRight_toLeftOf="@id/image_google"
+                app:layout_constraintTop_toBottomOf="@id/text_cadastro" />
+
+            <ImageButton
+                android:id="@+id/image_google"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_google"
+                android:contentDescription="@string/google_plus"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="@id/image_instagram"
+                app:layout_constraintLeft_toRightOf="@id/image_instagram"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/image_instagram" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
