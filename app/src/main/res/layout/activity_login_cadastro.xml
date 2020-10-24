@@ -9,23 +9,16 @@
     android:layout_weight="1.0"
     android:background="@color/white"
     android:fillViewport="true"
-    tools:context=".activity.LoginCadastroActivity">
+    tools:context=".ui.activity.LoginCadastroActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline_top"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.36" />
-
         <include
             android:id="@+id/layout_toolbar"
-            layout="@layout/layout_toolbar"
+            layout="@layout/layout_toolbar_login"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -35,17 +28,17 @@
             android:id="@+id/layout_top"
             layout="@layout/layout_top"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"  />
-
+            app:layout_constraintRight_toRightOf="parent" />
 
         <ImageView
             android:id="@+id/image_logo"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
-            android:src="@drawable/logo_bugcode"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/logo_mywallet"
+            app:layout_constraintBottom_toTopOf="@id/layout_bottom_login_cadastro"
             app:layout_constraintLeft_toLeftOf="@id/layout_top"
-            app:layout_constraintTop_toBottomOf="@id/layout_toolbar"
-            app:layout_constraintBottom_toTopOf="@id/layout_bottom_login_cadastro"/>
+            app:layout_constraintTop_toBottomOf="@id/layout_toolbar" />
 
         <include
             android:id="@+id/layout_bottom_login_cadastro"

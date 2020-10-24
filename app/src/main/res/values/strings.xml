@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">Bug Code</string>
+    <string name="app_name">MyWallet</string>
     <string name="text_buttom_show">Show</string>
     <string name="instagram">Instagram</string>
     <string name="google_plus">google+</string>
     <string name="facebook">facebook</string>
     <string name="text_buttom_login">Login</string>
+    <string name="title_toolbar">MyWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_menu_perfil"
+        android:icon="@drawable/logo_person"
+        android:title="Visualizar Perfil"
+        android:contentDescription="Visualizar Perfil"
+        app:showAsAction="ifRoom" />
+
+</menu>
