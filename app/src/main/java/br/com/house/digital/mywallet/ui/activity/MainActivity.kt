@@ -1,18 +1,18 @@
-package br.com.house.digital.bugcode.ui.activity
+package br.com.house.digital.mywallet.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Message
 import android.view.View
-import br.com.house.digital.bugcode.R
-import br.com.house.digital.bugcode.`interface`.IContractMainActivity
-import br.com.house.digital.bugcode.domain.Usuario
-import br.com.house.digital.bugcode.ui.fragments.EntradasFragment
-import br.com.house.digital.bugcode.ui.fragments.GastosFragment
-import br.com.house.digital.bugcode.ui.fragments.HomeFragment
-import br.com.house.digital.bugcode.helper.FragmentsUtils
-import br.com.house.digital.bugcode.helper.ToastUtils.toastLong
-import br.com.house.digital.bugcode.ui.fragments.DetalhesFragment
+import br.com.house.digital.mywallet.R
+import br.com.house.digital.mywallet.`interface`.IContractMainActivity
+import br.com.house.digital.mywallet.domain.Usuario
+import br.com.house.digital.mywallet.ui.fragments.EntradasFragment
+import br.com.house.digital.mywallet.ui.fragments.GastosFragment
+import br.com.house.digital.mywallet.ui.fragments.HomeFragment
+import br.com.house.digital.mywallet.helper.FragmentsUtils
+import br.com.house.digital.mywallet.helper.ToastUtils.toastLong
+import br.com.house.digital.mywallet.ui.fragments.DetalhesFragment
 import com.google.android.material.button.MaterialButton
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.layout_toolbar_main.*
@@ -30,9 +30,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, IContractMainAct
 
         setSupportActionBar(toolbar_main)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-//        toolbar_main.setNavigationOnClickListener {
-//
-//        }
     }
 
     override fun onClick(view: View) {

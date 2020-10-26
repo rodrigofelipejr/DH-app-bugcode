@@ -1,4 +1,4 @@
-package br.com.house.digital.bugcode.`interface`
+package br.com.house.digital.mywallet.`interface`
 
 interface IContractMainActivity {
     fun irParaDetalhes(message:String)

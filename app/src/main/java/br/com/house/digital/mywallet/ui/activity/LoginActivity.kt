@@ -1,12 +1,12 @@
-package br.com.house.digital.bugcode.ui.activity
+package br.com.house.digital.mywallet.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import br.com.house.digital.bugcode.R
-import br.com.house.digital.bugcode.domain.Usuario
-import br.com.house.digital.bugcode.helper.ViewUtils
+import br.com.house.digital.mywallet.R
+import br.com.house.digital.mywallet.domain.Usuario
+import br.com.house.digital.mywallet.helper.ViewUtils
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.layout_bottom_login.*

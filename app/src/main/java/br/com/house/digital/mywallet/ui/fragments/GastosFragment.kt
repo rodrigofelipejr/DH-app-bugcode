@@ -1,11 +1,11 @@
-package br.com.house.digital.bugcode.ui.fragments
+package br.com.house.digital.mywallet.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import br.com.house.digital.bugcode.R
+import br.com.house.digital.mywallet.R
 
 class GastosFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package br.com.house.digital.bugcode.helper
+package br.com.house.digital.mywallet.helper
 
 import android.content.Context
 import android.view.View

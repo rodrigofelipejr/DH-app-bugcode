@@ -1,4 +1,4 @@
-package br.com.house.digital.bugcode.domain
+package br.com.house.digital.mywallet.domain
 
 import java.io.Serializable
 

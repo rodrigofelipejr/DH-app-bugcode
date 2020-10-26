@@ -1,11 +1,11 @@
-package br.com.house.digital.bugcode.ui.activity
+package br.com.house.digital.mywallet.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import br.com.house.digital.bugcode.R
-import br.com.house.digital.bugcode.helper.ToastUtils.snackbarLong
+import br.com.house.digital.mywallet.R
+import br.com.house.digital.mywallet.helper.ToastUtils.snackbarLong
 import kotlinx.android.synthetic.main.activity_login_cadastro.*
 import kotlinx.android.synthetic.main.layout_bottom_login_cadastro.*
 import kotlinx.android.synthetic.main.layout_toolbar_login.*

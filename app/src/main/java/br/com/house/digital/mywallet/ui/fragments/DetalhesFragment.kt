@@ -1,4 +1,4 @@
-package br.com.house.digital.bugcode.ui.fragments
+package br.com.house.digital.mywallet.ui.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -6,9 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import br.com.house.digital.bugcode.R
-import br.com.house.digital.bugcode.`interface`.IContractMainActivity
-import br.com.house.digital.bugcode.helper.ToastUtils
+import br.com.house.digital.mywallet.R
+import br.com.house.digital.mywallet.`interface`.IContractMainActivity
+import br.com.house.digital.mywallet.helper.ToastUtils
 
 class DetalhesFragment : Fragment() {
     private var message = ""

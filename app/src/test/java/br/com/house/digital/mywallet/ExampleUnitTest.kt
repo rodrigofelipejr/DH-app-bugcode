@@ -1,4 +1,4 @@
-package br.com.house.digital.bugcode
+package br.com.house.digital.mywallet
 
 import org.junit.Test
 
